@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' type="text/css" href='/css/style.css'>
+  </head>
+  <body>
+    <h1><%= datos %></h1>
+    <ul>
+    <% resultados.forEach(function(result) { %>
+      <li><%= result %></li>
+      <%- )} %>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' type="text/css" href='css/style.css'>
+    <meta charset="utf-8"
+  </head>
+  <body>
+    <header >
+      <h1 class='title'><a href="/"><%= title %></a></h1>
+      <p>Welcome to <%= title %></p>
+    </header> -->
+
+<% include header.html %>
+  <h1>
+    <%= __('Listado') %>
+  </h1>
+  <table>
+    <tr>
+      <th><%= __('Artículo') %></th>
+      <th><%= __('Tipo') %></th>
+      <th><%= __('Precio') %></th>
+      <th><%= __('Foto') %></th>
+      <th><%= __('Etiquetas') %></th>
+      <th><%= __('Referencia') %></th>
+    </tr>
+    <% resultados.forEach(function(result) { %>
+      <% if (result.venta) { %>
+        <% trans = __('Venta') %>
+          <tr class='venta'>
+            <% } else { %>
+              <% trans = __('Compra') %>
+                <tr class='compra'>
+                  <% } %>
+                    <td>
+                      <%= result.nombre %>
+                    </td>
+                    <td class='transaccion'>
+                      <%= trans %>
+                    </td>
+                    <td class='precio'>
+                      <%= result.precio %> €</p>
+                        <td>
+                          <img class="foto" src="<%= result.foto %>">
+                        </td>
+                        <td>
+                          <%= result.tag %>
+                        </td>
+                        <td>
+                          <%= result._id %>
+                        </td>
+                        <%- )} %>
+                </tr>
+  </table>
+  <!-- <p><%= resultados %></p> -->
+  <% include footer.html %>

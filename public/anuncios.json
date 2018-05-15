@@ -1,0 +1,126 @@
+[
+{
+"tag": [
+"work",
+"lifestyle",
+"mobile"
+],
+"nombre": "Smartphone Xiaomi",
+"venta": true,
+"precio": 300,
+"foto": "/images/thumbnails/xiaomi.jpg"
+},
+{
+"tag": [
+"lifestyle"
+],
+"nombre": "Guantes de boxeo",
+"venta": false,
+"precio": 90,
+"foto": "/images/thumbnails/guantes.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle"
+],
+"nombre": "Mesa de camping ",
+"venta": true,
+"precio": 190.65,
+"foto": "/images/thumbnails/mesa.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle"
+],
+"nombre": "Camilla para fisioterapia ",
+"venta": true,
+"precio": 590.25,
+"foto": "/images/thumbnails/camilla.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle"
+],
+"nombre": "Radio despertador",
+"venta": true,
+"precio": 30,
+"foto": "/images/thumbnails/radio.jpg"
+},
+{
+"tag": [
+"work",
+"motor"
+],
+"nombre": "Motosierra eléctrica",
+"venta": false,
+"precio": 450,
+"foto": "/images/thumbnails/motosierra.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle",
+"mobile",
+"motor"
+],
+"nombre": "Manos libres para coche",
+"venta": true,
+"precio": 220,
+"foto": "/images/thumbnails/parrot.jpg"
+},
+{
+"tag": [
+"lifestyle",
+"mobile"
+],
+"nombre": "PlayStation 3",
+"venta": false,
+"precio": 200,
+"foto": "/images/thumbnails/ps3.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle",
+"motor"
+],
+"nombre": "Casco de moto XL",
+"venta": true,
+"precio": 360,
+"foto": "/images/thumbnails/casco.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle"
+],
+"nombre": "Escalera de aluminio",
+"venta": false,
+"precio": 99,
+"foto": "/images/thumbnails/escalera.jpg"
+},
+{
+"tag": [
+"motor"
+],
+"nombre": "Motocicleta Suzuki Burgman 125cc",
+"venta": true,
+"precio": 3000.00,
+"foto": "/images/thumbnails/suzuki.jpg"
+},
+{
+"tag": [
+"work",
+"lifestyle",
+"mobile",
+"motor"
+],
+"nombre": "Navegador Tom Tom",
+"venta": false,
+"precio": 490.95,
+"foto": "/images/thumbnails/tomtom.jpg"
+}
+]                                                                                                                                           

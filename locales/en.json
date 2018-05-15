@@ -1,0 +1,33 @@
+{
+  "Práctica del módulo 5 del bootcamp web de Keepcoding":
+    "Keepcoding web bootcamp Module 5 practice",
+  "Home": "Home",
+  "Listado": "Item List",
+  "Formulario de busqueda": "Searching Form",
+  "Bienvenido a": "Welcome to",
+  "Artículo": "Item",
+  "Tipo": "Type",
+  "Precio": "Price",
+  "Foto": "Pic",
+  "Etiquetas": "Tags",
+  "Referencia": "Reference",
+  "Venta": "On sale",
+  "Compra": "Buy it",
+  "Precio max-min": "max-min Price",
+  "-- Seleccione una etiqueta --": "-- Select a Tag --",
+  "Enviar": "Submit",
+  "Restablecer": "Reset",
+  "Utilice el formulario de búsqueda superior para filtrar los resultados del listado de artículos.":
+    "Use the superior search form to filter the results of the list of items.",
+  "Es posible insertar anuncios a traves de la API":
+    "It is possible to insert ads through the API",
+  "Para insertar anuncios envíe una peticion POST a http://localhost:3000/apiv1/anuncios":
+    "To insert ads send a POST request to  http://localhost:3000/apiv1/anuncios",
+  "La petición debe contener:": "Request must include:",
+  "nombre (texto)": "nombre (text)",
+  "venta (boleano)": "venta (boolean)",
+  "precio (float)": "precio (float)",
+  "foto (fichero)": "foto (file)",
+  "tag (texto[work, lifestyle, mobile, motor])":
+    "tag (text[work, lifestyle, mobile, motor])"
+}

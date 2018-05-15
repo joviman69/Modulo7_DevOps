@@ -1,0 +1,88 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header > * {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+th {
+  font-size: 1.1em;
+  color: white;
+  background-color: #2a2a2a;
+}
+
+th, td {
+  border-bottom: 2px solid #ddd;
+  height: 50px;
+  text-align: center;
+}
+
+.venta {
+  background-color: #6dee6d;
+
+}
+
+.compra {
+  background-color: #fc8888;
+
+}
+
+.title {
+  font-size: 2em;
+  color: #ddd;
+}
+
+.foto {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.precio {
+vertical-align: middle;
+}
+
+.search {
+  
+  position: relative;
+  background-color: #d6f5f2;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+header {
+
+  position: absolute;
+  top:  10px;
+  /* background-color: #ebddc3 */
+}
+
+footer {
+
+  background-color: darkgray;
+  position: absolute;
+  bottom: 0px;
+  margin: 25px;
+}
+
+.flag {
+
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,38 @@
+<% include header.html %>
+  <p><%= __('Bienvenido a')%>
+    <%= title %>
+  </p>
+  <div class="search">
+    <%= __('Formulario de busqueda') %>
+    <form action="/anuncios" method="GET">
+      <input type="text" name="nombre" id="nombre" placeholder=<%= __('Artículo') %>>
+      <input type="radio" name="venta" value="true"><%= __('Venta') %>
+      <input type="radio" name="venta" value="false"><%= __('Compra') %>
+      <input type="text" name="precio" id="precio" placeholder=<%= __('Precio max-min') %>>
+      <select name="tag" size="1">
+        <option disabled selected value> <%= __('-- Seleccione una etiqueta --') %> </option>
+        <option value="lifestyle">Lifestyle</option>
+        <option value="mobile">Mobile</option>
+        <option value="work">Work</option>
+        <option value="motor">Motor</option>
+      </select>
+      <button type="submit" value="Enviar"><%= __('Enviar') %></button>
+      <button type="reset" value="Restablecer"><%= __('Restablecer') %></button>
+    </form>
+  </div>
+  <div>
+    <ul>
+      <li><%= __('Utilice el formulario de búsqueda superior para filtrar los resultados del listado de artículos.') %></li>
+      <li><%= __('Es posible insertar anuncios a traves de la API') %></li>
+      <li><%= __('Para insertar anuncios envíe una peticion POST a http://localhost:3000/apiv1/anuncios') %></li>
+      <li><%= __('La petición debe contener:') %></li>
+      <ul>
+        <li><%= __('nombre (texto)') %></li>
+        <li><%= __('venta (boleano)') %></li>
+        <li><%= __('precio (float)') %></li>
+        <li><%= __('foto (fichero)') %>foto (fichero)</li>
+        <li><%= __('tag (texto[work, lifestyle, mobile, motor])') %></li>
+      </ul>
+    </ul>
+  </div>
+  <% include footer.html %>
