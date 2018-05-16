@@ -7,7 +7,7 @@ IP publica: 34.239.195.96 > Landing page de Startbootstrap.com
 
 Dominio: senode90.com > Aplicacion Node con MongoDB
 
-Archivos estaticos: Todas las imágenes
+Archivos estáticos: Todas las imágenes
 P.ej: 
 
 ```
