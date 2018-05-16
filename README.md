@@ -3,13 +3,17 @@
 Despliegue del la aplicación del módulo 5 Backend avanzado en servidor AWS
 
 IP publica: 34.239.195.96 > Landing page de Startbootstrap.com
+
+
 Dominio: senode90.com > Aplicacion Node con MongoDB
 
 Archivos estaticos: Todas las imágenes
 P.ej: 
+
+```
 https://senode90.com/images/es.png
 https://senode90.com/images/en.png
-
+```
 
 
 
