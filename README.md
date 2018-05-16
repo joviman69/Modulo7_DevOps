@@ -60,7 +60,7 @@ Acceso a las características del API
 http://servidor:puerto/apiv1/anuncios/
 en esta práctica localhost:3000
 
-Si no especificamos ninguna query a la API, ésta lista todos los anuncios en la base de datos como resultado.
+Si no especificamos ninguna query a la API, ésta lista todos los anuncapiv1/anuncios/5a89c6390774ae0f17e0b61bios en la base de datos como resultado.
 
 * Mostrar el total de anuncios en la base de datos como resultado.
 
@@ -130,7 +130,7 @@ admite indicar varios campos separados por espacios
 
 **limit=n** _limita la salida a n resultados_
 
-### Funciones especiales (Solamente para la práctica. En un entorno de producción sería peligroso)
+### Funciones especiales (Solamente para la práctica. En un entorno deapiv1/anuncios/5a89c6390774ae0f17e0b61b producción sería peligroso)
 
 Como indicabamos en las notas iniciales, es posible recargar la coleccion anuncios "predefinida"
 en la base de datos a traves del siguiente script:
@@ -201,4 +201,4 @@ x-access-token: <TOKEN>
 
 ### Internacionalización
 
-Traducción automática Español/Inglés de textos de la app pulsando en la bandera del idioma de la esquina superior derecha.
+Traducción automática Español/Inglés de textos de la app pulsando en la bandera del idioma de la esquina superior izquierda.
