@@ -1,5 +1,21 @@
-# Nodepop AVANZADO (Práctica del módulo 5)
+# DevOps (Práctica del módulo 7)
 
+Despliegue del la aplicación del módulo 5 Backend avanzado en servidor AWS
+
+IP publica: 34.239.195.96 > Landing page de Startbootstrap.com
+Dominio: senode90.com > Aplicacion Node con MongoDB
+
+Archivos estaticos: Todas las imágenes
+P.ej: 
+https://senode90.com/images/es.png
+https://senode90.com/images/en.png
+
+
+
+
+
+Antiguo README.md
+=================
 NodeJs, Express y MongoDB
 
 Internacionalización, subida de imágen en background y auntenticación JWT.
@@ -158,7 +174,7 @@ Hay implementado un microservicio de generación de thumbnails que se activa cor
 node ./lib/thumbService
 ```
 
-La subida de imágenes debe realizarse insertando un anuncio en la aplicación a traves de un envío por método POST a la API (Podemos ayudarnos de la Postman para ello)
+La subida de imágenes debe reahttps://senode90.com/images/es.pnglizarse insertando un anuncio en la aplicación a traves de un envío por método POST a la API (Podemos ayudarnos de la Postman para ello)
 
 ```
 http://localhost:3000/apiv1/anuncios
